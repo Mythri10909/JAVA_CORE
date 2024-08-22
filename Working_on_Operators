@@ -1,0 +1,37 @@
+public class Operators {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 5;
+//Arithmetic Op
+        System.out.println("Sum: " + (a + b));
+        System.out.println("Difference: " + (a - b));
+        System.out.println("Product: " + (a * b));
+        System.out.println("Quotient: " + (a / b));
+        System.out.println("Remainder: " + (a % b));
+//Relational Op
+        System.out.println("Is Equal: " + (a == b));
+        System.out.println("Is Not Equal: " + (a != b));
+        System.out.println("Is Greater: " + (a > b));
+        System.out.println("Is Less: " + (a < b));
+        System.out.println("Is Greater or Equal: " + (a >= b));
+        System.out.println("Is Less or Equal: " + (a <= b));
+//Unary Op
+        System.out.println("Incremented A: " + (++a));
+        System.out.println("Decremented B: " + (--b));
+//Bitwise Op
+        System.out.println("Bitwise AND: " + (a & b));
+        System.out.println("Bitwise OR: " + (a | b));
+        System.out.println("Bitwise XOR: " + (a ^ b));
+        System.out.println("Bitwise NOT A: " + (~a));
+//Shift Op
+        System.out.println("Left Shift: " + (a << 2));
+        System.out.println("Right Shift: " + (a >> 2));
+        System.out.println("Unsigned Right Shift: " + (a >>> 2));
+//Logical Op
+        System.out.println("Logical AND: " + ((a > 0) && (b > 0)));
+        System.out.println("Logical OR: " + ((a > 0) || (b > 0)));
+        System.out.println("Logical NOT: " + (!(a > b)));
+//Ternary Op
+        System.out.println("Ternary Result: " + ((a > b) ? a : b));
+    }
+}
