@@ -1,0 +1,21 @@
+	//	 	\t for tab.
+	//		\b for backspace (a step backward in the text or deletion of a single character).
+	//		\n for new line.
+	//		\r - carriage return. ()
+	//		\f for form feed.
+	//		\\ for backslash.
+	//		\' for single quote.
+	//		\" for double quote.
+
+
+
+public class On_Escape_Sequences {
+
+	public static void main(String[] args) {
+		System.out.println();
+		
+		System.out.println("I'm a \"great Dancer\");
+		System.out.println("I Love Swimmimg but.......\n I don't know hot to swim");
+		System.out.println("Hey, there!How are you");
+	}
+}
