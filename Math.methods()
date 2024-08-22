@@ -1,0 +1,24 @@
+public class Prob {
+	
+	public static void main(String[] args) {
+		System.out.println(Math.PI);	
+		System.out.println(Math.max(99, 263)); 
+		System.out.println(Math.min(-631, 5356));
+		System.out.println(Math.sqrt(92));	
+		int abs_Val = Math.abs(-47);
+		System.out.println(abs_Val);			
+		System.out.println(Math.random());						
+		System.out.println((int)(Math.random() * 3)); 		 
+		System.out.println((int)(Math.random() * 7) + 5); 
+		System.out.println(Math.sqrt(-96));	
+		System.out.println(0 / 0.0);		
+		System.out.println((0 / 0.0) + 69);
+		System.out.println(Math.round(77.0 / 88.0));						
+		System.out.println(Math.round( 99.0 * 100.0 / 200.0) / 300.0);	
+		System.out.println(55 / 0.0);		
+		System.out.println(66 / 0.0);
+ 
+		
+	}
+
+}
